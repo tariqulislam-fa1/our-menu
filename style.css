@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+#title{
+    margin-top:20px;
+    text-align: center;
+}
+.container{
+    margin: 20px;
+
+}
+.content{
+    width: 33.33%;
+    padding: 10px;
+    float: left;
+    
+}
+#content1{
+    position: relative;
+    background-color: #aaa5a5;
+    border: 1px solid black;
+    padding: 12px;
+}
+#region1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: indianred;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+.content .text{
+    padding-top: 30px;
+}
+
+#content2{
+    position: relative;
+    background-color: #aaa5a5;
+    border: 1px solid black;
+    padding: 12px;
+}
+#region2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: goldenrod;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+#content3{
+    position: relative;
+    background-color: #aaa5a5;
+    border: 1px solid black;
+    padding: 12px;
+}
+#region3{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: yellowgreen;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    .content{
+        width: 50%;
+    }
+    .container{
+        position: relative;
+    }
+    #content3{
+        position: absolute;
+        width: 98%;
+        margin-right: 10px;
+    }
+}
+@media (max-width:767px){
+    .content{
+        width: 100%;
+    }
+}
